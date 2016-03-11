@@ -1,0 +1,17 @@
+
+ $header.addClass('masthead');
+
+-$('.big-heading').remove();
++$('.big-heading').removeClass();
+ $h1.addClass('logo');
+
+ $main.addClass('wrapper');
+@@ -25,6 +25,6 @@ $('ul li:first-child').addClass('slug-list-first');
+ $('ul li:last-child').addClass('slug-list-last');
+
+ $dl.addClass('classification');
+-$('.big-label').remove();
++$('.big-label').removeClass();
+
+-$('ul li:last-child').append('slug-list-last')
++$('ul li:last-child').show('slug-list-last');
