@@ -1,14 +1,14 @@
 var $header = $('header');
- var $h1 = $('h1');
- var $main = $('main');
- var $h2 = $('h2');
- var $img = $('img');
- var $dl = $('dl');
- var $dt = $('dt');
+var $h1 = $('h1');
+var $main = $('main');
+var $h2 = $('h2');
+var $img = $('img');
+var $dl = $('dl');
+var $dt = $('dt');
 
  $header.addClass('masthead');
 
--$('.big-heading').removeClass();
+Number($('.big-heading').removeClass());
  $h1.addClass('logo');
 
  $main.addClass('wrapper');
