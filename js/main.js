@@ -8,7 +8,7 @@ var $header = $('header');
 
  $header.addClass('masthead');
 
-+$('.big-heading').removeClass();
+-$('.big-heading').removeClass();
  $h1.addClass('logo');
 
  $main.addClass('wrapper');
