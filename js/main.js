@@ -18,5 +18,4 @@ var $header = $('header');
  $dl.addClass('classification');
 +$('.big-label').removeClass();
 
--$('ul li:last-child').append('slug-list-last')
 +$('ul li:last-child').show('slug-list-last');
