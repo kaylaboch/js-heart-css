@@ -6,16 +6,25 @@ var $img = $('img');
 var $dl = $('dl');
 var $dt = $('dt');
 
- $header.addClass('masthead');
+$header.addClass('masthead');
 
-Number($('.big-heading').removeClass());
- $h1.addClass('logo');
+$('.big-heading').removeClass();
+$h1.addClass('logo');
 
- $main.addClass('wrapper');
--25 6 +25 6 ('ul li:first-child').addClass('slug-list-first');
- $('ul li:last-child').addClass('slug-list-last');
+$main.addClass('wrapper');
 
- $dl.addClass('classification');
-+$('.big-label').removeClass();
+$('main p:first-child').addClass('intro');
 
-+$('ul li:last-child').show('slug-list-last');
+$h2.addClass('slug-head');
+
+$('main ul').addClass('slug-list');
+
+$img.addClass('slug-img');
+
+$('ul li:first-child').addClass('slug-list-first');
+$('ul li:last-child').addClass('slug-list-last');
+
+$dl.addClass('classification');
+$('.big-label').removeClass();
+
+$('ul li:last-child').show('slug-list-last');
